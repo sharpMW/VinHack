@@ -1,6 +1,6 @@
 import React from "react";
 
-// const TrendsCard = (props) => {
+const TrendsCard = (props) => {
 //   const object = (index) => {
 //     return {
 //       shirt: require(`../assets/t-shirt${index%4}.jpg`),

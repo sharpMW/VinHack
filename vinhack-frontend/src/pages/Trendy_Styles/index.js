@@ -1,11 +1,11 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Trend from '../../components/Trend'
 import Navbar from '../../components/Navbar'
 import SocialsSection from '../../components/SocialsSection'
 
-const index = () => {
-  
-  return (
+const Index = () => {
+  const final = []
+return (
     <>
     <Navbar/>
     <Trend/>
@@ -13,8 +13,7 @@ const index = () => {
     </>
   )
 }
-
-export default index
+export default Index
 // const ImageRow = ({ images }) => {
 //   return (
 //     <div className="image-row">
